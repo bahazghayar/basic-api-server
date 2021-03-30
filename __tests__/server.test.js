@@ -22,9 +22,9 @@ describe('api server', () => {
     });
 
     it('Create a clothe record using POST', async () => {
-        const response = await request.post('/api/v1/clothes').send({ type: 'shirt' });
+        const response = await request.post('/api/v1/clothes').send({ type: 'shorts' });
         expect(response.status).toEqual(201);
-        expect(response.body.data.type).toEqual('shirt');
+        expect(response.body.data.type).toEqual('shorts');
         id = response.body.id;
     });
 
@@ -53,9 +53,9 @@ describe('api server', () => {
 
 
     it('Create a food record using POST', async () => {
-        const response = await request.post('/api/v1/food').send({ name: 'pizza' });
+        const response = await request.post('/api/v1/food').send({ name: 'chocolate' });
         expect(response.status).toEqual(201);
-        expect(response.body.data.name).toEqual('pizza');
+        expect(response.body.data.name).toEqual('chocolate');
         id = response.body.id;
     });
 
