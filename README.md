@@ -6,7 +6,7 @@
 
 [GitHub action link](https://github.com/bahazghayar/basic-api-server/actions) <br>
 
-[Pull request link](https://github.com/bahazghayar/basic-api-server/pull/2) <br>
+[Pull request link](https://github.com/bahazghayar/basic-api-server/pull/1) <br>
 
 
 ### For working on the same project:
